@@ -1,6 +1,7 @@
 # WinBGIm
 
 Forked from https://github.com/Duthomhas/WinBGIm-fixed-sort-of-
+Contains additional fixes and vscode config files.
 
 ## How to Download and Compile
 
