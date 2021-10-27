@@ -1,4 +1,6 @@
-# WinBGIm (fixed, sort of)
+# WinBGIm
+
+Forked from https://github.com/Duthomhas/WinBGIm-fixed-sort-of-
 
 About once a year I get a gazillion requests over at
 [cplusplus.com](http://www.cplusplus.com) for the compiled version of a 
