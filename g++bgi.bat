@@ -27,4 +27,4 @@ echo.
 goto :EOF
 
 :OK
-g++ -std=c++11 -Wall -pedantic -m32 -mwindows -s -I. -L. -o %~n1.exe %* -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+g++ -std=c++20 -O2 -Wall -pedantic -m32 -s -I. -L. -o %~n1.exe %* -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 && .\%~n1.exe
