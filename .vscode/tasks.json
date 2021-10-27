@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "type": "process",
+      "label": "g++ Builds Active File (For CG)",
+      "command": "C:/TDM-GCC-32/bin/g++bgi.bat",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: C/TDM-GCC-32/bin/g++.exe (CG)"
+    }
+  ],
+  "version": "2.0.0"
+}
