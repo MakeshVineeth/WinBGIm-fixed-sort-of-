@@ -5,7 +5,7 @@ Forked from https://github.com/Duthomhas/WinBGIm-fixed-sort-of-
 
 # Introduction
 
-In this repo, you'll have the instructions to compile graphics.h from source code and use it on your Windows Systems. graphics.h provides access to Simple Graphics Library which can be used to put pixels, draw lines and circles etc using C/C++
+In this repo, you'll find the instructions to compile graphics.h from source code and use it on your Windows Systems with Dev C++ and Visual Studio Code. graphics.h provides access to Simple Graphics Library which can be used to put pixels, draw lines and circles etc using C/C++
 
 **NOTE: graphics.h has been discontinued 20+ years ago, it is recommended to switch to any newer graphics libraries like SDL, OpenGL etc.**
 
