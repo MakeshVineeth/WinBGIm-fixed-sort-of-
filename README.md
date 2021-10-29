@@ -1,7 +1,11 @@
 # WinBGIm
 
 Forked from https://github.com/Duthomhas/WinBGIm-fixed-sort-of-
-(Contains additional fixes and vscode config files)
+ - Contains additional fixes and vscode config files.
+ - Instructions for Dev C++ Setup.
+ - Works only on Windows OS.
+ - Visit this [Link](https://github.com/Duthomhas/WinBGIm-fixed-sort-of-/tree/master/source) to see what's different from the original WinBGIm library.
+ - For Linux or MacOS systems, try this: http://libxbgi.sourceforge.net (not tested)
 
 # Introduction
 
