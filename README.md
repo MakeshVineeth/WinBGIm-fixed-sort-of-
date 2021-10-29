@@ -55,14 +55,14 @@ directory:
 
 These are the only files you have to care about. There are two ways to compile:
 
-**Method 1:**
+### Method 1
 Copy them to compiler's directories so that it is globally accessible to all source code files. Following are the steps:
 
 - Copy graphics.h file to the **include** directory of the compiler.
 - Copy libbgi.a file to the **lib** directory of the compiler.
 - Copy **g++bgi.bat** to bin folder.
 
-**Method 2:**
+### Method 2
 Copy them to the same
 directory as your program's source code. Open the command prompt the
 same way as before and make sure that MinGW is in the path. If your program's
@@ -79,4 +79,24 @@ executable with:
 
     myprogram
 
-That's it!
+
+## VS Code Setup
+
+- Create a Workspace folder, make sure there are no spaces or special characters in the path, else it may not work properly.
+- Copy the .vscode folder inside that Workspace folder.
+- Now open the folder in VSCode and write any graphics program.
+- Make sure to save it as **.cpp**, else it will not work.
+- Now press Ctrl + Shift + B to build and run your program.
+
+## Dev C++
+
+- Use a recent version of Dev C++ (https://www.embarcadero.com/free-tools/dev-cpp)
+- Open the Dev C++ application.
+- Choose only 32-bit compiler from the drop down menu as graphics.h doesn't work with 64bit versions.
+- Go to Compiler options from the menu.
+- Paste the following lines in the Linker options: `-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32`
+- Write any graphics program and make sure to save it as **.cpp**
+- Run your program!
+
+
+HAPPY CODING !
