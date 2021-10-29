@@ -1,7 +1,13 @@
 # WinBGIm
 
 Forked from https://github.com/Duthomhas/WinBGIm-fixed-sort-of-
-Contains additional fixes and vscode config files.
+(Contains additional fixes and vscode config files)
+
+# Introduction
+
+In this repo, you'll have the instructions to compile graphics.h from source code and use it on your Windows Systems. graphics.h provides access to Simple Graphics Library which can be used to put pixels, draw lines and circles etc using C/C++
+
+**NOTE: graphics.h has been discontinued 20+ years ago, it is recommended to switch to any newer graphics libraries like SDL, OpenGL etc.**
 
 ## How to Download and Compile
 
@@ -10,9 +16,9 @@ Github and unzip it somewhere convenient.
 
 Then open up your command-prompt in the unzipped directory. The easiest way 
 to do this is to double-click on the address bar in Windows Explorer, type 
-“`cmd`”, and press `Enter`.
+"`cmd`", and press `Enter`.
 
-  ![Entering “cmd” into Explorer Address Bar](images/howto-open-cmd.gif)
+  ![Entering "cmd" into Explorer Address Bar](images/howto-open-cmd.gif)
 
 Once you are at the command prompt, make sure that MinGW is in the path. (If 
 you installed it using the default MinGW installation, it should be.) Enter:
@@ -24,9 +30,9 @@ This will make MinGW to tell you it is there. If it isn’t
 _one_ of the following commands, depending on which version of MinGW you have 
 installed:
 
-    path C:\MinGW\bin;%PATH%            ←(for MinGW)
-    path C:\MinGW-w64\bin;%PATH%        ←(for MinGW-w64)
-    path C:\TDM-GCC-64\bin;%PATH%       ←(for TDM-GCC)
+    path C:\MinGW\bin;%PATH%            ← for MinGW
+    path C:\MinGW-w64\bin;%PATH%        ← for MinGW-w64
+    path C:\TDM-GCC-64\bin;%PATH%       ← for TDM-GCC
 
 Now you are ready to compile WinBGIm and the examples. Enter:
 
@@ -44,9 +50,9 @@ directory:
     libbgi.a
 
 These are the only files you have to care about. Copy them to the same
-directory as your program’s source code. Open the command prompt the
-same way as before and make sure that MinGW is in the path. If your program’s
-source code is named “`myprogram.cpp`”, compile it with:
+directory as your program's source code. Open the command prompt the
+same way as before and make sure that MinGW is in the path. If your program's
+source code is named "`myprogram.cpp`", compile it with:
 
     g++bgi myprogram.cpp
 
@@ -59,4 +65,4 @@ executable with:
 
     myprogram
 
-That’s it!
+That's it!
