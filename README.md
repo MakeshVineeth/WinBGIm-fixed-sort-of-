@@ -49,7 +49,17 @@ directory:
     graphics.h
     libbgi.a
 
-These are the only files you have to care about. Copy them to the same
+These are the only files you have to care about. There are two ways to compile:
+
+**Method 1:**
+Copy them to compiler's directories so that it is globally accessible to all source code files. Following are the steps:
+
+- Copy graphics.h file to the **include** directory of the compiler.
+- Copy libbgi.a file to the **lib** directory of the compiler.
+- Copy **g++bgi.bat** to bin folder.
+
+**Method 2:**
+Copy them to the same
 directory as your program's source code. Open the command prompt the
 same way as before and make sure that MinGW is in the path. If your program's
 source code is named "`myprogram.cpp`", compile it with:
